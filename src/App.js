@@ -10,12 +10,12 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDij9kyEAo0RSzlXfM0bbUvQyucWfncuEw",
-  authDomain: "chatcommunity-335c1.firebaseapp.com",
-  projectId: "chatcommunity-335c1",
-  storageBucket: "chatcommunity-335c1.appspot.com",
-  messagingSenderId: "114798556476",
-  appId: "1:114798556476:web:1629cbe774c7ef7fe95a39"
+   apiKey: "AIzaSyAHOhtVmUvhq-AU9T0feCNTNu_ZDxrc2Ng",
+  authDomain: "chatapp-bd767.firebaseapp.com",
+  projectId: "chatapp-bd767",
+  storageBucket: "chatapp-bd767.appspot.com",
+  messagingSenderId: "794042240058",
+  appId: "1:794042240058:web:8d96dc584fa469f14f7903"
 })
 
 const auth = firebase.auth();
@@ -30,7 +30,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>chat Community☔</h1>
+         <h1>chat Community☔</h1>
+        <a href="https://github.com/rahulkumar-99"><h6 style={{ color: 'white'}}><u>Made by Rahul Kumar</u></h6></a>
         <SignOut />
       </header>
 
